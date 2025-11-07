@@ -22,7 +22,7 @@ body{
 } 
 
 #loginForm{ 
-  width: 10vmin 
+  width: 10vmin;
   display: flex; 
   flex-direction: column; 
   gap: 0.5rem;
