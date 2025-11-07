@@ -1,5 +1,53 @@
 :root { 
 --fon-color: #C0CBEE;
 --color-accent: #000000;
---color-addition: ##5882F5;
+--color-addition: #5882F5;
   --text-color: #000000; 
+body{
+  width: 100vw; 
+  height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+  background-color: var(#C0CBEE); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  position: relative;
+} 
+
+#loginForm{ 
+  width: 10vmin 
+  display: flex; 
+  flex-direction: column; 
+  gap: 0.5rem;
+}
+#lastName, #password { 
+  border: 0.22vmin solid var(#5882F5); 
+  background-color: var(#5882F5); 
+  color: var(#000000); 
+  outline: none; 
+} 
+.field{ 
+  width: 100%; 
+  padding: 1.25vmin 5%; 
+  border-radius: 1rem; 
+  box-sizing: border-box; 
+  font-size: clamp(16px, 2.35vh, 40px); 
+  transition: all 0.3s ease-in-out;
+} 
+#loginButton{ 
+  border: 0; 
+  background-color: var(#000000); 
+  color: var(#5882F5);
+}
+#lastName:hover, #password:hover{ 
+  border: 0.22vmin solid var(#000000); 
+  box-shadow: 0 0 0.5vmin var(#000000); 
+} 
+#loginButton:hover{ 
+  transform: scale(1.03); 
+  background-color: var(#000000); 
+  font-size: clamp(16px, 2.37vh, 40px); 
+  box-shadow: 0 0 0.5vmin var(#000000) 
+} 
