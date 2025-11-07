@@ -9,12 +9,16 @@ body{
   height: 100vh; 
   margin: 0; 
   padding: 0; 
-  background-color: var(#C0CBEE); 
+  background-color: var(--fon-color); 
   display: flex; 
   justify-content: center; 
   align-items: center; 
   flex-direction: column; 
   position: relative;
+} 
+#tetx-head{ 
+  color: var(--color-accent); 
+  font-size: 1.5rem; 
 } 
 
 #loginForm{ 
@@ -24,9 +28,9 @@ body{
   gap: 0.5rem;
 }
 #lastName, #password { 
-  border: 0.22vmin solid var(#5882F5); 
-  background-color: var(#5882F5); 
-  color: var(#000000); 
+  border: 0.22vmin solid var(--color-addition); 
+  background-color: var(--color-addition); 
+  color: var(--text-color); 
   outline: none; 
 } 
 .field{ 
@@ -39,16 +43,16 @@ body{
 } 
 #loginButton{ 
   border: 0; 
-  background-color: var(#000000); 
-  color: var(#5882F5);
+  background-color: var(--text-color); 
+  color: var(--color-addition);
 }
 #lastName:hover, #password:hover{ 
-  border: 0.22vmin solid var(#000000); 
-  box-shadow: 0 0 0.5vmin var(#000000); 
+  border: 0.22vmin solid var(--color-addition); 
+  box-shadow: 0 0 0.5vmin var(--color-addition); 
 } 
 #loginButton:hover{ 
   transform: scale(1.03); 
-  background-color: var(#000000); 
+  background-color: var(--color-addition); 
   font-size: clamp(16px, 2.37vh, 40px); 
-  box-shadow: 0 0 0.5vmin var(#000000) 
+  box-shadow: 0 0 0.5vmin var(--color-addition);
 } 
