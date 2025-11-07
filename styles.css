@@ -1,8 +1,9 @@
-:root { 
---fon-color: #C0CBEE;
---color-accent: #000000;
---color-addition: #5882F5;
-  --text-color: #000000; 
+:root {
+  --fon-color: #C0CBEE;
+  --color-accent: #000000;
+  --color-addition: #5882F5;
+  --text-color: #000000;
+}
 body{
   width: 100vw; 
   height: 100vh; 
